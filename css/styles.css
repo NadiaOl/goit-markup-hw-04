@@ -344,12 +344,12 @@ body {
   justify-content: center;
   background-size: cover;
   background-color: transparent;
-  fill: #AFB1B8;
+  color: #AFB1B8;
 }
 
-/* .icon-insta, .icon-twitter, .icon-facebook, .icon-linkedin {
+.icon-insta, .icon-twitter, .icon-facebook, .icon-linkedin {
   fill: currentColor;
-} */
+}
 
 .team-soc-link:hover,
 .team-soc-link:focus {
@@ -575,19 +575,19 @@ margin-bottom: 50px;
   justify-content: center;
   background-size: cover;
   background-color: #44454E;
-  fill: var(--additional-color);
+  color: var(--additional-color);
 }
 
 .join-link:hover, .join-link:focus {
   background-color: var(--link-color);
 }
 
-/* .icon-insta-footer,
+.icon-insta-footer,
 .icon-twitter-footer,
 .icon-facebook-footer,
 .icon-linkedin-footer {
   fill: currentColor;
-} */
+}
 
 .footer-container {
   display: flex;
