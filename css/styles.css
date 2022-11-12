@@ -312,7 +312,6 @@ body {
   gap: 30px;
 }
 
-
 .team-item {
   padding-bottom: 30px;
   background-color: var(--additional-color);
@@ -326,31 +325,39 @@ body {
   justify-content: center;
 }
 
+.team-soc-item {
+  width: 44px;
+  height: 44px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+
 .team-soc-link {
   display: flex;
   gap: 10px;
-  width: 44px;
-  height: 44px;
+  width: 100%;
+  height: 100%;
   border-radius: 50%;
   align-items: center;
   justify-content: center;
-  background-size: contain;
+  background-size: cover;
+  background-color: transparent;
+  fill: #AFB1B8;
 }
+
+/* .icon-insta, .icon-twitter, .icon-facebook, .icon-linkedin {
+  fill: currentColor;
+} */
 
 .team-soc-link:hover,
 .team-soc-link:focus {
   background-color: var(--link-color);
-}
-.icon-facebook, .icon-twitter, .icon-insta, .icon-linkedin {
-  fill: #AFB1B8;
-}
-
-.icon-facebook:hover,
-.icon-twitter:hover,
-.icon-insta:hover,
-.icon-linkedin:hover {
   fill: var(--additional-color);
 }
+
+
 
 /* -----------------------CLIENTS -----------------------*/
 .clients {
@@ -380,22 +387,25 @@ margin-bottom: 50px;
   align-items: center;
   width: 170px;
   height: 92px;
+
+}
+
+.client-link {
+  display: flex;
+  width: 100%;
+  height: 100%;
   border: 1px solid #AFB1B8;
   border-radius: 4px;
-}
-
-.icon-group6, .icon-group5, .icon-group4, .icon-group3, .icon-group2, .icon-group1 {
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
   fill: #AFB1B8;
 }
-.icon-group6:hover,
-.icon-group5:hover,
-.icon-group4:hover,
-.icon-group3:hover,
-.icon-group2:hover,
-.icon-group1:hover {
+
+.client-link:hover,
+.client-link:focus {
   fill: var(--link-color);
 }
-
 /* -----------------------PAGE PORTFOLIO -----------------------*/
 
 .portfolio {
@@ -524,6 +534,13 @@ margin-bottom: 50px;
   margin-bottom: 20px;
 }
 
+.join {
+  margin-top: 12px;
+  margin-right: 93px;
+  width: 206px;
+  height: 80px;
+}
+
 .join-us, .subscribe-us {
   font-weight: 700;
   font-size: 14px;
@@ -534,47 +551,52 @@ margin-bottom: 50px;
   margin-bottom: 20px;
 }
 
+
 .join-list {
   display: flex;
   gap: 10px;
   justify-content: center;
 }
 
+.join-item {
+  width: 44px;
+  height: 44px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
 .join-link {
   display: flex;
   gap: 10px;
-  width: 44px;
-  height: 44px;
+  width: 100%;
+  height: 100%;
   border-radius: 50%;
   align-items: center;
   justify-content: center;
-  background-size: contain;
+  background-size: cover;
   background-color: #44454E;
+  fill: var(--additional-color);
 }
 
 .join-link:hover, .join-link:focus {
   background-color: var(--link-color);
 }
 
+/* .icon-insta-footer,
+.icon-twitter-footer,
+.icon-facebook-footer,
+.icon-linkedin-footer {
+  fill: currentColor;
+} */
+
 .footer-container {
   display: flex;
-}
-
-.join {
-  margin-top: 12px;
-  margin-right: 93px;
-  width: 206px;
-  height: 80px;
 }
 
 .subscribe {
   margin-top: 12px;
   width: 570px;
   height: 86px;
-}
-
-.join-list {
-  display: flex;
 }
 
 .contact-div {
