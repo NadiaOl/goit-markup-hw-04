@@ -344,17 +344,17 @@ body {
   justify-content: center;
   background-size: cover;
   background-color: transparent;
-  fill: #AFB1B8;
+  color: #AFB1B8;
 }
 
-/* .icon-insta, .icon-twitter, .icon-facebook, .icon-linkedin {
-  fill: #AFB1B8;
-} */
+.icon-insta, .icon-twitter, .icon-facebook, .icon-linkedin {
+  fill: currentColor;
+}
 
 .team-soc-link:hover,
 .team-soc-link:focus {
   background-color: var(--link-color);
-  fill: var(--additional-color);
+  color: var(--additional-color);
 }
 
 
