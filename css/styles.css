@@ -344,12 +344,12 @@ body {
   justify-content: center;
   background-size: cover;
   background-color: transparent;
-  color: #AFB1B8;
+  fill: #AFB1B8;
 }
 
-.icon-insta, .icon-twitter, .icon-facebook, .icon-linkedin {
-  fill: currentColor;
-}
+/* .icon-insta, .icon-twitter, .icon-facebook, .icon-linkedin {
+  fill: #AFB1B8;
+} */
 
 .team-soc-link:hover,
 .team-soc-link:focus {
@@ -586,7 +586,7 @@ margin-bottom: 50px;
 .icon-twitter-footer,
 .icon-facebook-footer,
 .icon-linkedin-footer {
-  fill: currentColor;
+  fill: var(--additional-color);
 }
 
 .footer-container {
