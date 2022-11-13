@@ -405,6 +405,7 @@ margin-bottom: 50px;
 .client-link:hover,
 .client-link:focus {
   fill: var(--link-color);
+  border-color: var(--link-color);
 }
 /* -----------------------PAGE PORTFOLIO -----------------------*/
 
