@@ -399,8 +399,13 @@ margin-bottom: 50px;
   align-items: center;
   justify-content: center;
   background-size: cover;
-  fill: #AFB1B8;
+  color: #AFB1B8;
+  border-color: #AFB1B8;
 }
+
+.icon-group1, .icon-group2, .icon-group3, .icon-group4, .icon-group5, .icon-group6 {
+  fill: currentColor;
+} 
 
 .client-link:hover,
 .client-link:focus {
